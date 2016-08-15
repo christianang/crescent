@@ -1,0 +1,23 @@
+{
+  "name": "crescent",
+  "version": "0.0.1",
+  "description": "experimental 3d modeller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianang/crescent.git"
+  },
+  "author": "Christian Ang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christianang/crescent/issues"
+  },
+  "homepage": "https://github.com/christianang/crescent#readme",
+  "dependencies": {
+    "connect": "^3.4.1",
+    "serve-static": "^1.11.1"
+  }
+}
