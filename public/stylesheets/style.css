@@ -1,3 +1,29 @@
 body {
   background-color: #3465A4;
 }
+
+.statusline {
+  position: absolute;
+  bottom: 20px;
+  background-color: #eee;
+  font-family: monospace;
+  font-size: 10pt;
+  line-height: 1.5;
+  color: #555753;
+  width: 100%;
+  padding-left: 0.5em;
+}
+
+.statusline .bold {
+  font-weight: bold;
+}
+
+.commandline {
+  position: absolute;
+  bottom: 0px;
+  font-family: monospace;
+  font-size: 10pt;
+  line-height: 1.5;
+  color: #eee;
+  width: 100%;
+}
